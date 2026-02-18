@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
+
 body{
     /*
     background-image:url("./assets/bg-mobile.jpg");
@@ -12,6 +17,7 @@ body{
     background-size: cover;
     */
     /*Agrupando o background*/
+    min-height: 100vh;
     background: url("./assets/fundo-teste.png") no-repeat top center /cover;/*Atalho*/
 }
 
@@ -22,8 +28,10 @@ body *{
 
 /*Box central da página*/
 #container{
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
     margin: 56px auto 0px;
+    padding: 0 16px;
 }
 
 #profile{
@@ -36,7 +44,7 @@ body *{
 }
 
 #profile p{
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 24px;    
     margin-top: 8px;
 }
