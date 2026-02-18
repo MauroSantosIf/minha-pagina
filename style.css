@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*
+    background-image:url("./assets/bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    */
+    /*Agrupando o background*/
+    background: url("./assets/fundo-teste.png") no-repeat top center /cover;/*Atalho*/
+}
+
+body *{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+/*Box central da página*/
+#container{
+    width: 360px;
+    margin: 56px auto 0px;
+}
+
+#profile{
+    text-align: center; /*Centralizar a imagem porque o profile é block-level e o conteúdo é inline*/
+    padding: 24px;
+}
+
+#profile img{
+    width: 112px;
+}
+
+#profile p{
+    font-weight: 500px;
+    line-height: 24px;    
+    margin-top: 8px;
+}
+
+/*links*/
+
+ul {
+    list-style: none;
+
+    display: flex; /*Primeiro transformei em flex para que os filhos aceitassem também as propriedades do Flex */
+    flex-direction: column;/*cada elemento da UL (lista (LI)) fica um abaixo do outro*/
+    gap: 16px; /*Dá espaços entre os elementos, no caso, entre os itens (li) da lista*/
+
+
+}
+
+ul li a{
+    display: flex;
+    justify-content: center; /*Joga para ao meio alinhando a esquerda*/
+    align-items: center;/*Centraliza no container*/
+
+    padding: 16px 24px;
+
+    background: rgb(255, 255,255, 0.1);
+    border-radius: 8px;
+
+    text-decoration: none;
+    font-weight: 500;
+}
