@@ -1,4 +1,4 @@
-# 🚀 Revisão de HTML, CSS e JavaScript
+# Revisão de HTML, CSS e JavaScript
 
 Projeto desenvolvido com o objetivo de revisar e consolidar conceitos fundamentais de:
 
@@ -8,7 +8,7 @@ Projeto desenvolvido com o objetivo de revisar e consolidar conceitos fundamenta
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Esta aplicação foi criada como exercício prático para reforçar conceitos essenciais de desenvolvimento front-end, incluindo:
 
@@ -20,10 +20,16 @@ Esta aplicação foi criada como exercício prático para reforçar conceitos es
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
+
+--- 
+
+## Quer visitar o projeto? Dê uma olhada
+link: https://maurosantosif.github.io/minha-pagina/
+
 
 
