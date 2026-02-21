@@ -1,26 +1,20 @@
-# Revisão de HTML, CSS e JavaScript
+# Theme Toggle Project
 
-Projeto desenvolvido com o objetivo de revisar e consolidar conceitos fundamentais de:
-
-- ✅ HTML5
-- ✅ CSS3
-- ✅ JavaScript
+A simple front-end project built to practice HTML, CSS, and JavaScript concepts.  
+This project implements a dark and light theme toggle by dynamically modifying the HTML element.
 
 ---
 
-## Sobre o Projeto
+## Features
 
-Esta aplicação foi criada como exercício prático para reforçar conceitos essenciais de desenvolvimento front-end, incluindo:
-
-- Estruturação semântica com HTML
-- Estilização com CSS
-- Manipulação de DOM com JavaScript
-- Interatividade básica
-- Organização de arquivos
+- Dark and Light mode toggle
+- Dynamic theme switching using JavaScript
+- CSS variables for theme control
+- Responsive layout
 
 ---
 
-## Tecnologias Utilizadas
+## Technologies
 
 - HTML5
 - CSS3
@@ -28,6 +22,10 @@ Esta aplicação foi criada como exercício prático para reforçar conceitos es
 
 ---
 
-## Quer visitar o projeto? Dê uma olhadinha
+## Installation
 
-link: https://maurosantosif.github.io/minha-pagina/
+Clone the repository:
+
+```bash
+git clone https://maurosantosif.github.io/minha-pagina/
+```
