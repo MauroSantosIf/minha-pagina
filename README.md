@@ -26,10 +26,8 @@ Esta aplicação foi criada como exercício prático para reforçar conceitos es
 - CSS3
 - JavaScript
 
---- 
+---
 
-## Quer visitar o projeto? Dê uma olhada
+## Quer visitar o projeto? Dê uma olhadinha
+
 link: https://maurosantosif.github.io/minha-pagina/
-
-
-

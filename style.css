@@ -12,6 +12,7 @@
   --surface-color-hover: rgb(255, 255, 255, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --image-avatar: url("./assets/avatar-black.png");
+  --switch-bg-url: url("./assets/MoonStars.svg");
 }
 
 .light {
@@ -22,6 +23,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.15);
   --image-avatar: url("./assets/avatar-light.png");
+  --switch-bg-url: url("./assets/Sun.svg");
 }
 
 html,
@@ -79,6 +81,53 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+}
+
+#switch {
+  position: relative;
+  width: 64px;
+
+  margin: 4px auto;
+}
+
+/*Switch de tema claro e escuro*/
+#switch button {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 50%;
+
+  background-color: white;
+  background-image: var(--switch-bg-url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+
+  /*Posicionamento do botão dentro do switch*/
+  /*O switch é o container do botão, então o posicionamento é relativo ao switch*/
+  /*O botão é posicionado no meio do switch, alinhado à direita*/
+  /*O z-index é para garantir que o botão fique acima do span, que é a parte de fundo do switch*/
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.light #switch button {
+  right: 0;
+  left: initial;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+
+  border: 1px solid var(--stroke-color);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
 }
 
 /*links*/
